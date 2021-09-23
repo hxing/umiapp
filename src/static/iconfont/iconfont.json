@@ -1,0 +1,37 @@
+{
+  "id": "2831088",
+  "name": "umiapp",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4766685",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e7c6",
+      "unicode_decimal": 59334
+    },
+    {
+      "icon_id": "5297134",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "12525662",
+      "name": "cart",
+      "font_class": "cart",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "12525671",
+      "name": "order",
+      "font_class": "order",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    }
+  ]
+}
