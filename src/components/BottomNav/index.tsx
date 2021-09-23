@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import React from 'react';
 import { TabBar } from 'antd-mobile';
 import { history } from 'umi';
 
@@ -21,11 +21,11 @@ const menu = [{
 },
 ];
 
-class BottomNav extends Component<any, any> {
-  constructor() {
-    super();
-  }
-  render() {
+interface BottomNavPropType {
+  pathname: string
+}
+
+const BottomNav: React.FC<BottomNavPropType> = (props) => {
     return (
       <footer>
         <TabBar>
@@ -42,7 +42,6 @@ class BottomNav extends Component<any, any> {
             />)}
         </TabBar>
       </footer>);
-  }
 }
 
 export default BottomNav;
